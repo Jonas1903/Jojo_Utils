@@ -1,0 +1,63 @@
+{
+  "jojoutils.category.general": "General Settings",
+  "jojoutils.category.hud": "HUD Elements",
+  "jojoutils.category.features": "Features",
+  
+  "key.jojoutils.category": "Jojo Utils",
+  "key.jojoutils.hud_layout": "Open HUD Layout Screen",
+  "key.jojoutils.toggle_armor": "Toggle Armor HUD",
+  "key.jojoutils.toggle_potion": "Toggle Potion HUD",
+  "key.jojoutils.toggle_shield": "Toggle Shield Status",
+  "key.jojoutils.toggle_inventory": "Toggle Inventory HUD",
+  "key.jojoutils.toggle_health": "Toggle Health Indicators",
+  "key.jojoutils.toggle_smartf3": "Toggle Smart F3",
+  "key.jojoutils.toggle_fullbright": "Toggle Fullbright",
+  "key.jojoutils.toggle_itemdrop": "Toggle Item Drop Prevention",
+  
+  "config.jojoutils.title": "Jojo Utils Configuration",
+  
+  "config.jojoutils.armor.enabled": "Armor HUD Enabled",
+  "config.jojoutils.armor.scale": "Armor HUD Scale",
+  "config.jojoutils.armor.opacity": "Armor HUD Opacity",
+  "config.jojoutils.armor.backgroundOpacity": "Armor HUD Background Opacity",
+  "config.jojoutils.armor.showPercentage": "Show Percentage",
+  
+  "config.jojoutils.potion.enabled": "Potion HUD Enabled",
+  "config.jojoutils.potion.scale": "Potion HUD Scale",
+  "config.jojoutils.potion.opacity": "Potion HUD Opacity",
+  "config.jojoutils.potion.backgroundOpacity": "Potion HUD Background Opacity",
+  
+  "config.jojoutils.shield.enabled": "Shield Status Enabled",
+  "config.jojoutils.shield.redOverlayOpacity": "Red Overlay Opacity",
+  "config.jojoutils.shield.greenOverlayEnabled": "Green Overlay Enabled",
+  "config.jojoutils.shield.greenOverlayOpacity": "Green Overlay Opacity",
+  "config.jojoutils.shield.offsetX": "Shield X Offset",
+  "config.jojoutils.shield.offsetY": "Shield Y Offset",
+  "config.jojoutils.shield.offsetZ": "Shield Z Offset",
+  
+  "config.jojoutils.inventory.enabled": "Inventory HUD Enabled",
+  "config.jojoutils.inventory.scale": "Inventory HUD Scale",
+  "config.jojoutils.inventory.opacity": "Inventory HUD Opacity",
+  "config.jojoutils.inventory.backgroundOpacity": "Inventory HUD Background Opacity",
+  "config.jojoutils.inventory.hideEmptySlots": "Hide Empty Slots",
+  
+  "config.jojoutils.health.enabled": "Health Indicators Enabled",
+  "config.jojoutils.health.showPlayers": "Show for Players",
+  "config.jojoutils.health.showHostile": "Show for Hostile Mobs",
+  "config.jojoutils.health.showFriendly": "Show for Friendly Mobs",
+  "config.jojoutils.health.verticalOffset": "Vertical Offset",
+  "config.jojoutils.health.distanceLimit": "Distance Limit",
+  
+  "config.jojoutils.smartf3.enabled": "Smart F3 Enabled",
+  "config.jojoutils.smartf3.scale": "Smart F3 Scale",
+  "config.jojoutils.smartf3.opacity": "Smart F3 Opacity",
+  "config.jojoutils.smartf3.backgroundOpacity": "Smart F3 Background Opacity",
+  "config.jojoutils.smartf3.showFps": "Show FPS",
+  "config.jojoutils.smartf3.showPing": "Show Ping",
+  "config.jojoutils.smartf3.showDirection": "Show Direction",
+  
+  "config.jojoutils.fullbright.enabled": "Fullbright Enabled",
+  
+  "config.jojoutils.itemdrop.enabled": "Item Drop Prevention Enabled",
+  "config.jojoutils.itemdrop.whitelist": "Item Whitelist"
+}

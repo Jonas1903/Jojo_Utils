@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "jojoutils",
+  "version": "${version}",
+  "name": "Jojo Utils",
+  "description": "A utility mod for Minecraft with HUD elements, keybindings, and various quality of life features",
+  "authors": [
+    "Jonas1903"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Jonas1903/Jojo_Utils",
+    "sources": "https://github.com/Jonas1903/Jojo_Utils"
+  },
+  "license": "MIT",
+  "icon": "assets/jojoutils/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.jonas.jojoutils.JojoUtils"
+    ],
+    "client": [
+      "com.jonas.jojoutils.JojoUtilsClient"
+    ],
+    "modmenu": [
+      "com.jonas.jojoutils.config.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "jojo-utils.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.10",
+    "java": ">=21",
+    "fabric-api": "*",
+    "modmenu": "*",
+    "cloth-config": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

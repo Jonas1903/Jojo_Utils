@@ -7,14 +7,12 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'net.fabricmc:fabric-loom:1.7-SNAPSHOT'
+        classpath 'net.fabricmc:fabric-loom:1.7.4'
     }
 }
 
-plugins {
-	id 'net.fabricmc.fabric-loom-remap' version "${loom_version}"
-	id 'maven-publish'
-}
+apply plugin: 'fabric-loom'
+apply plugin: 'maven-publish'
 
 version = project.mod_version
 group = project.maven_group
